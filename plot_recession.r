@@ -18,8 +18,8 @@ plot_recession <- function(target_value,target_date){
   peak_start <- peak[peak > data_start_date]  
 	trough_start <- trough[trough > data_start_date]
 
-	y_min <- round(min(target_value),0)
-	y_max <- round(max(target_value),-1)+1
+	y_min <- floowr(min(target_value))
+	y_max <- ceiling(max(target_value))
 
   ## plotting
   
