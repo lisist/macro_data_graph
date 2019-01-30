@@ -1,2 +1,11 @@
 # macro_data_graph
-Macro economic data graph handling
+R code for following purposes
+
+
+1. Major economic data and displayed them using ggplot2
+
+2. Adding shade to the period when US economic recession
+
+3. (developing)
+
+
