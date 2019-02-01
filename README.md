@@ -1,4 +1,4 @@
-# macro_data_graph
+# macro_data_analysis
 R code for following purposes
 
 
